@@ -61,12 +61,12 @@ const Navbar = () => {
         </div>
         <div className="md:hidden">
           {showMenu ? (
-            <FaBars
+            <FaXmark
               onClick={() => setShowMenu(!showMenu)}
               className="text-2xl cursor-pointer"
             />
           ) : (
-            <FaXmark
+            <FaBars
               onClick={() => setShowMenu(!showMenu)}
               className="text-2xl cursor-pointer"
             />

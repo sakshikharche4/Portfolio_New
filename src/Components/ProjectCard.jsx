@@ -13,7 +13,7 @@ const ProjectCard = ({ title, description, image, tech }) => {
         <h3 className="text-xl font-semibold mb-2">{title}</h3>
         <p className="text-gray-400 mb-4">{description}</p>
 
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2 mb-4">
           {tech.map((item, index) => (
             <span
               key={index}

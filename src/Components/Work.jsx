@@ -15,10 +15,13 @@ const Work = () => {
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-4">
           Work
-          <span className="text-purple">Experience</span>
+
+          <span className="text-purple">
+            
+            Experience</span>
         </h2>
-        <p className="text-gray-400 text-center max-w-2xl mx-auto">
-          My Proffetional jounery So far
+        <p className="text-gray-400 text-center max-w-2xl mx-auto mb-5">
+          An overview of my experience, learning, and progression
         </p>
 
         <div className="max-w-3xl mx-auto">

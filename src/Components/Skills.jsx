@@ -17,7 +17,7 @@ const Skills = () => {
             My <span className='text-purple'>Skills</span>
 
             </h2>
-            <p className='text-gray-400 text-center  max-w-2xl  mx-auto mb-16'>Technologies I work with to bring idea into life</p>
+            <p className='text-gray-400 text-center  max-w-2xl  mx-auto mb-16'>Tools and technologies I work with to bring ideas to life</p>
             <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto'>
                 {
                     skills.map((skills, index)=>(

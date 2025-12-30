@@ -42,13 +42,13 @@ export const skills = [
     title: 'Frontend Development',
     icon: FaReact,
     description: 'Building responsive and interactive user interfaces with modern frameworks.',
-    tags: ['React', 'Vue.js', 'Angular', 'TypeScript']
+    tags: ['HTML', 'CSS', 'Javascript', 'React.js']
   },
   {
     title: 'Backend Development',
     icon: FaServer,
     description: 'Creating robust server-side applications and RESTful APIs.',
-    tags: ['Node.js', 'Express', 'Django', 'Laravel']
+    tags: ['Node.js', 'Express']
   },
   {
     title: 'Database Management',
@@ -72,7 +72,9 @@ export const skills = [
     title: 'Tools & Technologies',
     icon: FaTools,
     description: 'Essential tools and technologies I use in my development workflow.',
-    tags: ['Git & GitHub', 'Webpack', 'Figma', 'Jest']
+    tags: ['Git & GitHub', 'Vs code', 'Figma', 'Postman',
+       'Nodemon'
+    ]
   }
 ];
 

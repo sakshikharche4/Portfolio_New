@@ -3,7 +3,7 @@ import { FaBars } from "react-icons/fa";
 import { FaXmark } from "react-icons/fa6";
 
 const Navbar = () => {
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState(false);
 
   return (
     <nav className="fixed w-full z-50 bg-dark-100/90 backdrop:backdrop-blur-sm py-4 px-8 shadow-lg">
@@ -25,35 +25,35 @@ const Navbar = () => {
           </a>
           <a
             className="relative group  text-white/80 transition duration-300 hover:text-purple"
-            href="#About"
+            href="#about"
           >
             <span>About</span>
             <span className="absolute left-0 -bottom-1 w-0 bg-purple-500 h-0.5 transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
             className="relative group  text-white/80 transition duration-300 hover:text-purple"
-            href="#Skill"
+            href="#skill"
           >
             <span>Skill</span>
             <span className="absolute left-0 -bottom-1 w-0 bg-purple-500 h-0.5 transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
             className="relative group  text-white/80 transition duration-300 hover:text-purple"
-            href="#Project"
+            href="#project"
           >
             <span>Project</span>
             <span className="absolute left-0 -bottom-1 w-0 bg-purple-500 h-0.5 transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
             className="relative group  text-white/80 transition duration-300 hover:text-purple"
-            href="#Expreriance"
+            href="#expreriance"
           >
             <span>Expreriance</span>
             <span className="absolute left-0 -bottom-1 w-0 bg-purple-500 h-0.5 transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
             className="relative group  text-white/80 transition duration-300 hover:text-purple"
-            href="#Contact"
+            href="#contact"
           >
             <span>Contact</span>
             <span className="absolute left-0 -bottom-1 w-0 bg-purple-500 h-0.5 transition-all duration-300 group-hover:w-full"></span>
@@ -80,7 +80,7 @@ const Navbar = () => {
           <a
             onClick={() => setShowMenu(!showMenu)}
             className="relative group  text-white/80 transition duration-300 hover:text-purple"
-            href="#home"
+            href="home"
           >
             <span>Home</span>
           </a>

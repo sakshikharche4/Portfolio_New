@@ -1,6 +1,4 @@
- 
- 
- import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
+import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
 
 import profileImg from '../assets/profile.avif';
 import projectImg1 from '../assets/project1.avif';
@@ -79,10 +77,10 @@ export const projects = [
     title: "Task Management App",
     description: "A productivity application with drag-and-drop functionality and real-time updates.",
     image: projectImg2,
-    tech: ["Vue.js", "Firebase", "Tailwind CSS", "WebSockets"],
+    tech: ["React", "CURD Operations", "Tailwind CSS", "Javascript"],
     icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
-    demo: "#",
-    code: "#",
+    demo: "task-management-notes.netlify.app",
+    code: "https://github.com/sakshikharche4/notes-app.git",
   },
   {
     title: "Fitness Tracker",
@@ -128,10 +126,9 @@ export const workData = [
     role: "Web Develper",
     company: "Wify Systems",
     duration: "August 2025 - Present",
-    description:
+   description:
       `Developed reusable, scalable React components using functional components, Hooks (useState, useEffect), props, and conditional rendering to build dynamic UIs.
-Integrated API data, handled loading/error states, optimized component performance, and followed clean code practices with a modular architecture.`,
-    color: "purple"
+Integrated API data, handled loading/error states, optimized component performance, and followed clean code practices with a modular architecture.`,color: "purple"
   },
   {
     role: "Software Engineer",
@@ -142,5 +139,3 @@ Integrated API data, handled loading/error states, optimized component performan
     color: "pink"
   },
  ];
-
- 

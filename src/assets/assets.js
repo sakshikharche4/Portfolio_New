@@ -1,134 +1,157 @@
-import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
+import {
+  FaLightbulb,
+  FaPaintBrush,
+  FaCode,
+  FaReact,
+  FaServer,
+  FaMobileAlt,
+  FaTools,
+  FaNodeJs,
+  FaStripe,
+  FaVuejs,
+  FaFire,
+  FaDatabase,
+  FaCloud,
+  FaRobot,
+} from "react-icons/fa";
 
-import profileImg from '../assets/profile.avif';
-import projectImg1 from '../assets/project1.avif';
-import projectImg2 from '../assets/project2.avif';
-import projectImg3 from '../assets/project3.avif';
-import projectImg4 from '../assets/project4.avif';
-import projectImg5 from '../assets/project5.avif';
-import projectImg6 from '../assets/project6.avif';
-
+import profileImg from "../assets/profile.avif";
+import projectImg1 from "../assets/project1.avif";
+import projectImg2 from "../assets/project2.avif";
+import projectImg3 from "../assets/project3.avif";
+import projectImg4 from "../assets/project4.avif";
+import projectImg5 from "../assets/project5.avif";
+import projectImg6 from "../assets/project6.avif";
 
 export const assets = {
-    profileImg,
-}
-
+  profileImg,
+};
 
 export const aboutInfo = [
-    {
-      icon: FaLightbulb,
-      title: 'Innovative',
-      description: 'I love creating unique solutions to complex problems with cutting-edge technologies.',
-      color: 'text-purple'
-    },
-    {
-      icon: FaPaintBrush,
-      title: 'Design Oriented',
-      description: 'Beautiful design and user experience are at the heart of everything I create.',
-      color: 'text-pink'
-    },
-    {
-      icon: FaCode,
-      title: 'Clean Code',
-      description: 'I write maintainable, efficient code following best practices and modern patterns.',
-      color: 'text-blue'
-    }
-  ];
-
-
+  {
+    icon: FaLightbulb,
+    title: "Innovative",
+    description:
+      "I love creating unique solutions to complex problems with cutting-edge technologies.",
+    color: "text-purple",
+  },
+  {
+    icon: FaPaintBrush,
+    title: "Design Oriented",
+    description:
+      "Beautiful design and user experience are at the heart of everything I create.",
+    color: "text-pink",
+  },
+  {
+    icon: FaCode,
+    title: "Clean Code",
+    description:
+      "I write maintainable, efficient code following best practices and modern patterns.",
+    color: "text-blue",
+  },
+];
 
 export const skills = [
   {
-    title: 'Frontend Development',
+    title: "Frontend Development",
     icon: FaReact,
-    description: 'Building responsive and interactive user interfaces with modern frameworks.',
-    tags: ['HTML', 'CSS', 'Javascript', 'React.js', "JQuery", "TailwindCss", "Redux",  ]
+    description:
+      "Building responsive and interactive user interfaces with modern frameworks.",
+    tags: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React.js",
+      "JQuery",
+      "TailwindCss",
+      "Redux",
+    ],
   },
   {
-    title: 'Backend Development',
+    title: "Backend Development",
     icon: FaServer,
-    description: 'Creating robust server-side applications and RESTful APIs.',
-    tags: ['Node.js', 'Express']
+    description: "Creating robust server-side applications and RESTful APIs.",
+    tags: ["Node.js", "Express"],
   },
- 
+
   {
-    title: 'Tools & Technologies',
+    title: "Tools & Technologies",
     icon: FaTools,
-    description: 'Essential tools and technologies I use in my development workflow.',
-    tags: ['Git & GitHub', 'Vs code', 'Figma', 'Postman',
-       'Nodemon'
-    ]
-  }
+    description:
+      "Essential tools and technologies I use in my development workflow.",
+    tags: ["Git & GitHub", "Vs code", "Figma", "Postman", "Nodemon"],
+  },
 ];
-
-
 
 export const projects = [
   {
     title: "E-Commerce Platform",
-    description: "A full-featured online store with shopping cart, user authentication, and payment processing.",
+    description:
+      "A full-featured online store with shopping cart, user authentication, and payment processing.",
     image: projectImg1,
     tech: ["React", "Node.js", "MongoDB", "Stripe"],
-    icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
+    icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
     demo: "#",
     code: "#",
   },
   {
-    title: "Task Management App",
-    description: "A productivity application with drag-and-drop functionality and real-time updates.",
+    title: "Task Management Website",
+    description:
+      "A productivity application with drag-and-drop functionality and real-time updates.",
     image: projectImg2,
     tech: ["React", "CURD Operations", "Tailwind CSS", "Javascript"],
-    icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
+    icons: [FaVuejs, FaFire, FaCloud, FaDatabase],
     demo: "https://task-management-notes.netlify.app/",
     code: "https://github.com/sakshikharche4/notes-app.git",
   },
   {
-    title: "Fitness Tracker",
-    description: "A mobile app for tracking workouts, nutrition, and health metrics.",
+    title: "News Website",
+    description: "Category-based news search functionality in the app",
     image: projectImg3,
-    tech: ["React Native", "GraphQL", "MySQL", "Chart.js"],
+    tech: ["React", "Tailwindcss", "Javascipt", "SearchBar", "News API"],
     icons: [FaReact, FaDatabase],
-    demo: "#",
-    code: "#",
+    demo: "https://news-web-sandy.vercel.app/",
+    code: "https://github.com/sakshikharche4/News-Web.git",
   },
   {
     title: "Portfolio Website",
     description: "A personal portfolio to showcase projects, skills",
     image: projectImg4,
-    tech: ["React", "Tailwind CSS", "Framer Motion"],
+    tech: ["React", "Tailwind CSS", "Routing", "Framer Motion", "Redux"],
     icons: [FaReact, FaCloud],
     demo: "https://sakshi-kharche-portfolio.netlify.app/",
     code: "https://github.com/sakshikharche4/Portfolio_New.git",
   },
   {
     title: "Chat App",
-    description: "A real-time chat application with group messaging, emojis, and file sharing.",
+    description:
+      "A real-time chat application with group messaging, emojis, and file sharing.",
     image: projectImg5,
     tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
-    icons: [FaReact, FaNodeJs, FaDatabase ],
+    icons: [FaReact, FaNodeJs, FaDatabase],
     demo: "#",
     code: "#",
   },
   {
-    title: "AI Image Generator",
-    description: "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
+    title: "Weather Forecast Aap",
+    description:
+      "Developed a Weather Forecast App that allows users to search weather details by city and displays a ‘Not Found’ popup for invalid locations",
     image: projectImg6,
-    tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
+    tech: ["React", "Open Weather API", "Javascript", "Tailwind CSS"],
     icons: [FaRobot, FaReact, FaCloud],
-    demo: "#",
-    code: "#",
-  }
+    demo: "https://forcast-weather-web.netlify.app/",
+    code: "https://github.com/sakshikharche4/WeatherApp.git",
+  },
 ];
-
 
 export const workData = [
   {
     role: "Web Develper",
     company: "Wify Systems",
     duration: "August 2025 - Present",
-   description:
-      `Developed reusable, scalable React components using functional components, Hooks (useState, useEffect), props, and conditional rendering to build dynamic UIs.
-Integrated API data, handled loading/error states, optimized component performance, and followed clean code practices with a modular architecture.`,color: "purple"
+    description: `Developed reusable, scalable React components using functional components, Hooks (useState, useEffect), props, and conditional rendering to build dynamic UIs.
+Integrated API data, handled loading/error states, optimized component performance, and followed clean code practices with a modular architecture.`,
+    color: "purple",
   },
   {
     role: "Software Engineer",
@@ -136,6 +159,6 @@ Integrated API data, handled loading/error states, optimized component performan
     duration: "July 2023 - August 2025",
     description:
       "Designed and developed responsive HTML email templates using table-based layouts and inline CSS for marketing and transactional campaigns.",
-    color: "pink"
+    color: "pink",
   },
- ];
+];

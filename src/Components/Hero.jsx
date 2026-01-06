@@ -14,12 +14,12 @@ const Hero = () => {
     >
       <div className="container mx-auto px-6 flex flex-col md:flex-row  items-center justify-between">
         {/* leftside */}
-        <div className="md:w-1/2 mb-10 md:mb:0">
-          <h1 className="text-5xl md-text-6xl font-bold mb-4">
+        <div className="md:w-1/2 mb-10 md:mb:0 mt-4">
+          <h1 className="text-5xl md-text-6xl font-bold mb-4 ">
             Hi, I'm <span className="text-purple">Sakshi kharche</span>
           </h1>
           <h2 className="typewriter text-2xl md:text-4xl font-semibold mb-6">
-            Full Stack Developer
+            FrontEnd Developer
           </h2>
 
           <p className="text-lg text-gray-300 mb-8">

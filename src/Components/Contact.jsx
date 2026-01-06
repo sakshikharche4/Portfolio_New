@@ -1,6 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaDribbble, FaEnvelope, FaGithub, FaLinkedin, FaMapMarkedAlt, FaPhone, FaTwitter } from "react-icons/fa";
+import {
+  FaDribbble,
+  FaEnvelope,
+  FaGithub,
+  FaLinkedin,
+  FaMapMarkedAlt,
+  FaPhone,
+  FaTwitter,
+} from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -86,7 +94,8 @@ duration-300 cursor-pointer"
               </div>
               <div>
                 <h3 className="TEXT-LG font-semibold mb-2">
-                  Email <p className="text-gray-400">sakshi.kharche@gmail.com</p>
+                  Email{" "}
+                  <p className="text-gray-400">sakshi.kharche@gmail.com</p>
                 </h3>
               </div>
             </div>
@@ -96,36 +105,47 @@ duration-300 cursor-pointer"
               </div>
               <div>
                 <h3 className="TEXT-LG font-semibold mb-2">
-                  Phone <p className="text-gray-400">123456789</p>
+                  Phone <p className="text-gray-400">+91 96XXXXXX87</p>
                 </h3>
               </div>
             </div>
           </div>
           <div className="pt-4">
-<h3 className="text-lg font-semibold mb-4">Follow me</h3>
-<div className="flex space-x-4">
-    <a href="#" className="w-12 h-12 justify-center text-shadow-dark-20000 
+            <h3 className="text-lg font-semibold mb-4">Follow me</h3>
+            <div className="flex space-x-4">
+              <a
+                href="https://github.com/sakshikharche4"
+                className="w-12 h-12 justify-center text-shadow-dark-20000 
     rounded-full bg-dark-300 flex items-center hover:bg-dark-200 hover:text-white
-     transition duration-300">
-        <FaGithub/>
-    </a>
-      <a href="#" className="w-12 h-12 justify-center text-blue-400 
+     transition duration-300"
+              >
+                <FaGithub />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/sakshik2711"
+                className="w-12 h-12 justify-center text-blue-400 
     rounded-full bg-dark-300 flex items-center hover:bg-blue hover:text-white
-     transition duration-300">
-        <FaLinkedin/>
-    </a>
-      <a href="#" className="w-12 h-12 justify-center text-blue-400 
+     transition duration-300"
+              >
+                <FaLinkedin />
+              </a>
+              <a
+                href="https://x.com/SakshiKhar6639"
+                className="w-12 h-12 justify-center text-blue-400 
     rounded-full bg-dark-300 flex items-center hover:bg-blue hover:text-white
-     transition duration-300">
-        <FaTwitter/>
-    </a>
-      <a href="#" className="w-12 h-12 justify-center text-pink 
+     transition duration-300"
+              >
+                <FaTwitter />
+              </a>
+              <a
+                href="sakshi-kharche-portfolio.netlify.app/ "
+                className="w-12 h-12 justify-center text-pink 
     rounded-full bg-dark-300 flex items-center hover:bg-pink hover:text-white
-     transition duration-300">
-        <FaDribbble/>
-    </a>
-
-</div>
+     transition duration-300"
+              >
+                <FaDribbble />
+              </a>
+            </div>
           </div>
         </div>
       </div>

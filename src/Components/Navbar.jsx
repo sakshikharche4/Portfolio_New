@@ -80,42 +80,42 @@ const Navbar = () => {
           <a
             onClick={() => setShowMenu(!showMenu)}
             className="relative group  text-white/80 transition duration-300 hover:text-purple"
-            href="home"
+            href="#home"
           >
             <span>Home</span>
           </a>
           <a
             onClick={() => setShowMenu(!showMenu)}
             className="relative group  text-white/80 transition duration-300 hover:text-purple"
-            href="about"
+            href="#about"
           >
             <span>About</span>
           </a>
           <a
             onClick={() => setShowMenu(!showMenu)}
             className="relative group  text-white/80 transition duration-300 hover:text-purple"
-            href="#Skill"
+            href="#skill"
           >
             <span>Skill</span>
           </a>
           <a
             onClick={() => setShowMenu(!showMenu)}
             className="relative group  text-white/80 transition duration-300 hover:text-purple"
-            href="#Project"
+            href="#project"
           >
             <span>Project</span>
           </a>
           <a
             onClick={() => setShowMenu(!showMenu)}
             className="relative group  text-white/80 transition duration-300 hover:text-purple"
-            href="#Expreriance"
+            href="#expreriance"
           >
             <span>Expreriance</span>
           </a>
           <a
             onClick={() => setShowMenu(!showMenu)}
             className="relative group  text-white/80 transition duration-300 hover:text-purple"
-            href="#Contact"
+            href="#contact"
           >
             <span>Contact</span>
           </a>

@@ -79,7 +79,7 @@ export const projects = [
     image: projectImg2,
     tech: ["React", "CURD Operations", "Tailwind CSS", "Javascript"],
     icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
-    demo: "task-management-notes.netlify.app",
+    demo: "https://task-management-notes.netlify.app/",
     code: "https://github.com/sakshikharche4/notes-app.git",
   },
   {
@@ -97,7 +97,7 @@ export const projects = [
     image: projectImg4,
     tech: ["React", "Tailwind CSS", "Framer Motion"],
     icons: [FaReact, FaCloud],
-    demo: "sakshi-kharche-portfolio.netlify.app/",
+    demo: "https://sakshi-kharche-portfolio.netlify.app/",
     code: "https://github.com/sakshikharche4/Portfolio_New.git",
   },
   {

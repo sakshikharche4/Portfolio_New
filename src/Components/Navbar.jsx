@@ -48,7 +48,7 @@ const Navbar = () => {
             className="relative group  text-white/80 transition duration-300 hover:text-purple"
             href="#expreriance"
           >
-            <span>Expreriance</span>
+            <span>Experience</span>
             <span className="absolute left-0 -bottom-1 w-0 bg-purple-500 h-0.5 transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
@@ -110,7 +110,7 @@ const Navbar = () => {
             className="relative group  text-white/80 transition duration-300 hover:text-purple"
             href="#expreriance"
           >
-            <span>Expreriance</span>
+            <span>Experience</span>
           </a>
           <a
             onClick={() => setShowMenu(!showMenu)}

@@ -84,16 +84,16 @@ export const skills = [
 ];
 
 export const projects = [
-  {
-    title: "E-Commerce Platform",
-    description:
-      "A full-featured online store with shopping cart, user authentication, and payment processing.",
-    image: projectImg1,
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
-    icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
-    demo: "#",
-    code: "#",
-  },
+  // {
+  //   title: "E-Commerce Platform",
+  //   description:
+  //     "A full-featured online store with shopping cart, user authentication, and payment processing.",
+  //   image: projectImg1,
+  //   tech: ["React", "Node.js", "MongoDB", "Stripe"],
+  //   icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
+  //   demo: "#",
+  //   code: "#",
+  // },
   {
     title: "Task Management Website",
     description:
@@ -108,7 +108,7 @@ export const projects = [
     title: "News Website",
     description: "Category-based news search functionality in the app",
     image: projectImg3,
-    tech: ["React", "Tailwindcss", "Javascipt", "SearchBar", "News API"],
+    tech: ["React", "Tailwindcss", "Javascipt", "Routing", "News API"],
     icons: [FaReact, FaDatabase],
     demo: "https://news-web-sandy.vercel.app/",
     code: "https://github.com/sakshikharche4/News-Web.git",
@@ -122,16 +122,16 @@ export const projects = [
     demo: "https://sakshi-kharche-portfolio.netlify.app/",
     code: "https://github.com/sakshikharche4/Portfolio_New.git",
   },
-  {
-    title: "Chat App",
-    description:
-      "A real-time chat application with group messaging, emojis, and file sharing.",
-    image: projectImg5,
-    tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
-    icons: [FaReact, FaNodeJs, FaDatabase],
-    demo: "#",
-    code: "#",
-  },
+  // {
+  //   title: "Chat App",
+  //   description:
+  //     "A real-time chat application with group messaging, emojis, and file sharing.",
+  //   image: projectImg5,
+  //   tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
+  //   icons: [FaReact, FaNodeJs, FaDatabase],
+  //   demo: "#",
+  //   code: "#",
+  // },
   {
     title: "Weather Forecast Aap",
     description:

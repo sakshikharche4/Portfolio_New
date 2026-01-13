@@ -23,7 +23,7 @@ const Projects = () => {
           Showcased Experience
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-15 max-w-6xl mx-auto">
           {projects.map((project) => (
             <ProjectCard
               key={project.title}
@@ -32,7 +32,7 @@ const Projects = () => {
           ))}
         </div>
         <div className='text-center mt-12'>
-          <a href="" className='inline-flex items-center px-6 py-3 border
+          <a href="#" className='inline-flex items-center px-6 py-3 border
           border-purple rounded-lg font-medium
           hover:bg-purple/20 transition duration-300'>
              <span>View more Projects</span>

@@ -132,8 +132,8 @@ export const projects = [
     image: projectImg1,
     tech: ["JavaScript", "Dom Manipulation", "Tailwindcss"],
     icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
-    demo: "#",
-    code: "#",
+    demo: "https://tik-tac-game1401.netlify.app/",
+    code: "https://github.com/sakshikharche4/Tick_Tac.git",
   },
 ];
 

@@ -84,16 +84,7 @@ export const skills = [
 ];
 
 export const projects = [
-  // {
-  //   title: "E-Commerce Platform",
-  //   description:
-  //     "A full-featured online store with shopping cart, user authentication, and payment processing.",
-  //   image: projectImg1,
-  //   tech: ["React", "Node.js", "MongoDB", "Stripe"],
-  //   icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
-  //   demo: "#",
-  //   code: "#",
-  // },
+ 
   {
     title: "Task Management Website",
     description:
@@ -122,16 +113,7 @@ export const projects = [
     demo: "https://sakshi-kharche-portfolio.netlify.app/",
     code: "https://github.com/sakshikharche4/Portfolio_New.git",
   },
-  // {
-  //   title: "Chat App",
-  //   description:
-  //     "A real-time chat application with group messaging, emojis, and file sharing.",
-  //   image: projectImg5,
-  //   tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
-  //   icons: [FaReact, FaNodeJs, FaDatabase],
-  //   demo: "#",
-  //   code: "#",
-  // },
+
   {
     title: "Weather Forecast Aap",
     description:
@@ -141,6 +123,17 @@ export const projects = [
     icons: [FaRobot, FaReact, FaCloud],
     demo: "https://forcast-weather-web.netlify.app/",
     code: "https://github.com/sakshikharche4/WeatherApp.git",
+  },
+   {
+    title: "Tik-Tac Game",
+    description:
+      `A classic Tic Tac Toe (X–O) game developed using vanilla JavaScript with DOM manipulation 
+      for interactivity and Tailwind CSS for responsive and modern UI styling.`,
+    image: projectImg1,
+    tech: ["JavaScript", "Dom Manipulation", "Tailwindcss"],
+    icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
+    demo: "#",
+    code: "#",
   },
 ];
 

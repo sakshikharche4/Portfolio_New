@@ -51,6 +51,8 @@ export const aboutInfo = [
   },
 ];
 
+
+
 export const skills = [
   {
     title: "Frontend Development",

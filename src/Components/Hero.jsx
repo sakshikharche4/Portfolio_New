@@ -1,8 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { assets } from "../assets/assets";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+  const Navigate = useNavigate()
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
@@ -28,16 +30,16 @@ const Hero = () => {
           <div className="flex space-x-4">
             <a
               className="px-6 rounded-lg font-medium py-3 bg-purple hover:bg-purple-700 transition duration-300"
-              href="Exprirence"
+              href="#project"
             >
               View work
             </a>
-            <a
-              className="px-6 py-3 bg-border-purple rounded-lg font-medium hover:bg-purple/20 transition duration-300"
-              href="#contact"
-            >
-              Contact Me
-            </a>
+
+            <button type="button" onClick={()=>Navigate("/BuildProject")}  className="px-6 py-3 bg-border-purple rounded-lg font-medium hover:bg-purple/20 transition duration-300"
+              >Hire Me</button>
+           
+              
+            
           </div>
         </div>
 
